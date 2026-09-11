@@ -1,3 +1,9 @@
+# ⚠️ EDUCATIONAL & RESEARCH PROJECT ONLY
+
+> **IMPORTANT NOTICE:** This repository is a personal, educational Proof-of-Concept (PoC) built solely to study Windows internals and C++ architecture. **No functional drivers, binaries, or game-specific offsets are provided.**
+
+---
+
 ## 🛠️ Technologies Used
 
 | Area | Technology |
@@ -16,7 +22,7 @@
 
 This project was developed strictly as an educational artifact to study low-level systems programming. The primary learning objectives include:
 
-1. **System Boundaries:** Understanding how Windows separates User Mode (UM) and Kernel Mode (KM), and how data is securely routed across this boundary using IOCTLs.
+1. **System Boundaries:** Understanding how Windows separates User Mode (UM) and Kernel Mode (KM), and how data is routed across this boundary using IOCTLs.
 2. **Memory Interaction:** Exploring how external diagnostic tools interface with the memory space of a secondary process.
 3. **Real-Time Processing:** Architecting non-blocking, multi-threaded feature loops (e.g., memory scan → decision matrix → action execution) without degrading main thread performance.
 4. **3D Mathematics:** Implementing World-to-Screen transformations using view matrices and vector mathematics.
@@ -31,6 +37,7 @@ This project was developed strictly as an educational artifact to study low-leve
 This repository is published **strictly for educational research and reverse-engineering analysis**. 
 
 It is explicitly **NOT** intended to:
+
 * Cheat or gain unfair advantages in online multiplayer games.
 * Bypass, manipulate, or analyze commercial anti-cheat systems.
 * Facilitate unauthorized access to computer systems or proprietary software.
@@ -44,6 +51,9 @@ It is explicitly **NOT** intended to:
 The author strictly condemns the use of this material for cheating, malware development, or any unauthorized system manipulation.
 
 ---
+## screenshot
+<img width="960" height="480" alt="image" src="https://github.com/user-attachments/assets/044db339-5f58-4f12-bb5d-a933acb70d64" />
+
 
 ## 👨‍💻 Author
 
