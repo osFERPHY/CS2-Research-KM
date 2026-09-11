@@ -1,0 +1,35 @@
+# Build
+cmake-build-*/
+build/
+out/
+.idea/
+.vs/
+.vscode/
+
+# Binaries
+*.exe
+*.dll
+*.sys
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.log
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+
+# Sensitive — kernel driver bytes and Intel vulnerable driver
+km-(dll)/driver_bytes.hpp
+km-(dll)/kdmapper/intel_driver_resource.hpp
+
+# kdmapper implementations
+km-(dll)/kdmapper/intel_driver.cpp
+km-(dll)/kdmapper/kdmapper.cpp
+km-(dll)/kdmapper/service.cpp
+km-(dll)/kdmapper/portable_executable.cpp
+km-(dll)/kdmapper/utils.cpp
+km-(dll)/kdmapper/KDSymbolsHandler.cpp
